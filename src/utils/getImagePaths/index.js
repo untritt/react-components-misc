@@ -1,24 +1,24 @@
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
+//path to imgur album
+const albumUrl = "https://api.imgur.com/3/album/Xe7hh/images";
+//imgur application auth
+const clientId = "76267f1cf857a9a";
+const headers = new Headers();
+headers.append("Authorization", `Client-ID ${clientId}`);
+headers.append("Accept", `application/json`);
+headers.append("Content-Type", `application/json`);
 
-const baseUrl = "https://source.unsplash.com/random";
+const request = new Request(albumUrl, {
+  method: "GET",
+  headers,
+  credentials: "include"
+});
 
-const count = 10;
-const imageWidth = 640;
-const imageHeight = 480;
-
-const randomUrl = `${baseUrl}/${imageWidth}x${imageHeight}`;
-
-export default async () => {
-  let urls = [];
-
-  for (let index = 0; index < count; index++) {
-    await sleep(2000);
-    await fetch(randomUrl).then(response => {
-      urls.push(response.url);
+export default () => {
+  return fetch(request)
+    .then(response => response.json())
+    .then(({ data }) => data.map(({ link }) => link))
+    .catch(error => {
+      console.log(request);
+      console.log(error);
     });
-  }
-
-  return urls;
 };

@@ -8,7 +8,7 @@ export default class Carousel extends React.Component {
 
   onClickPrev = e => {
     e.preventDefault();
-    const { length } = this.props.images;
+    const { length } = this.props.paths;
     const prevIndex = (this.state.activeItemIndex + (length - 1)) % length;
     this.setState({
       activeItemIndex: prevIndex
@@ -17,7 +17,7 @@ export default class Carousel extends React.Component {
 
   onClickNext = e => {
     e.preventDefault();
-    const { length } = this.props.images;
+    const { length } = this.props.paths;
     const nextIndex = (this.state.activeItemIndex + 1) % length;
     this.setState({
       activeItemIndex: nextIndex
@@ -25,7 +25,7 @@ export default class Carousel extends React.Component {
   };
 
   renderImages() {
-    return this.props.images.map((image, index) => (
+    return this.props.paths.map((image, index) => (
       <div
         className={cn({
           "carousel-item": true,

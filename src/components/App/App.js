@@ -7,12 +7,14 @@ import getImagePaths from "../../utils/getImagePaths";
 
 class App extends Component {
   state = {
-    images: []
+    paths: []
   };
 
-  async componentDidMount() {
-    this.setState({
-      images: await getImagePaths()
+  componentDidMount() {
+    getImagePaths().then(paths => {
+      this.setState({
+        paths
+      });
     });
   }
 
@@ -22,7 +24,7 @@ class App extends Component {
       <div>
         <Collapse text={hiddenText} />
         <CheckboxWithLabel labelOn="On" labelOff="Off" />
-        <Carousel images={this.state.images} />
+        <Carousel paths={this.state.paths} />
       </div>
     );
   }
