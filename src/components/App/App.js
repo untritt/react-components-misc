@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
-import Collapse from "../Collapse/Collapse";
-import CheckboxWithLabel from "../CheckboxWithLabel/CheckboxWithLabel";
-import Carousel from "../Carousel/Carousel";
+import Collapse from "../Collapse";
+import CheckboxWithLabel from "../CheckboxWithLabel";
+import Carousel from "../Carousel";
 import getImagePaths from "../../utils/getImagePaths";
 
 class App extends Component {
