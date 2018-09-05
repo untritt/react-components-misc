@@ -1,5 +1,4 @@
-import axios from "axios";
-
+import fetch from "isomorphic-fetch";
 //path to imgur album
 const url = "https://api.imgur.com/3/album/Xe7hh/images";
 //imgur application auth
@@ -9,18 +8,16 @@ const headers = {
 };
 
 export default () => {
-  return axios
-    .request({
-      url,
-      method: "get",
-      headers
-    })
+  return fetch(url, {
+    method: "get",
+    headers
+  })
     .then(
-      ({ data: { data } }) => data.map(({ link }) => link),
+      response => response.json(),
       error => {
-        console.error(request);
         console.error(error);
-        return [];
+        return { data: [] };
       }
-    );
+    )
+    .then(({ data }) => data.map(({ link }) => link));
 };
