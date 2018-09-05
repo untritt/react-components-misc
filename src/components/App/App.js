@@ -9,13 +9,19 @@ class App extends Component {
   state = {
     paths: []
   };
+  _isMounted = false;
 
   componentDidMount() {
+    this._isMounted = true;
     getImagePaths().then(paths => {
-      this.setState({
-        paths
-      });
+      this._isMounted &&
+        this.setState({
+          paths
+        });
     });
+  }
+  componentWillUnmount() {
+    this._isMounted = false;
   }
 
   render() {
