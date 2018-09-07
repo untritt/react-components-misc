@@ -1,0 +1,540 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter 1`] = `
+<div>
+  <div
+    class="btn-group"
+    role="group"
+  >
+    <button
+      class="btn btn-secondary inc"
+    >
+      +
+    </button>
+    <button
+      class="btn btn-secondary dec"
+    >
+      -
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Counter 2`] = `
+<div>
+  <div
+    class="btn-group"
+    role="group"
+  >
+    <button
+      class="btn btn-secondary inc"
+    >
+      +
+    </button>
+    <button
+      class="btn btn-secondary dec"
+    >
+      -
+    </button>
+  </div>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Counter 3`] = `
+<div>
+  <div
+    class="btn-group"
+    role="group"
+  >
+    <button
+      class="btn btn-secondary inc"
+    >
+      +
+    </button>
+    <button
+      class="btn btn-secondary dec"
+    >
+      -
+    </button>
+  </div>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Counter 4`] = `
+<div>
+  <div
+    class="btn-group"
+    role="group"
+  >
+    <button
+      class="btn btn-secondary inc"
+    >
+      +
+    </button>
+    <button
+      class="btn btn-secondary dec"
+    >
+      -
+    </button>
+  </div>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Counter 5`] = `
+<div>
+  <div
+    class="btn-group"
+    role="group"
+  >
+    <button
+      class="btn btn-secondary inc"
+    >
+      +
+    </button>
+    <button
+      class="btn btn-secondary dec"
+    >
+      -
+    </button>
+  </div>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Counter 6`] = `
+<div>
+  <div
+    class="btn-group"
+    role="group"
+  >
+    <button
+      class="btn btn-secondary inc"
+    >
+      +
+    </button>
+    <button
+      class="btn btn-secondary dec"
+    >
+      -
+    </button>
+  </div>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Counter 7`] = `
+<div>
+  <div
+    class="btn-group"
+    role="group"
+  >
+    <button
+      class="btn btn-secondary inc"
+    >
+      +
+    </button>
+    <button
+      class="btn btn-secondary dec"
+    >
+      -
+    </button>
+  </div>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Counter 8`] = `
+<div>
+  <div
+    class="btn-group"
+    role="group"
+  >
+    <button
+      class="btn btn-secondary inc"
+    >
+      +
+    </button>
+    <button
+      class="btn btn-secondary dec"
+    >
+      -
+    </button>
+  </div>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Counter 9`] = `
+<div>
+  <div
+    class="btn-group"
+    role="group"
+  >
+    <button
+      class="btn btn-secondary inc"
+    >
+      +
+    </button>
+    <button
+      class="btn btn-secondary dec"
+    >
+      -
+    </button>
+  </div>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Counter 10`] = `
+<div>
+  <div
+    class="btn-group"
+    role="group"
+  >
+    <button
+      class="btn btn-secondary inc"
+    >
+      +
+    </button>
+    <button
+      class="btn btn-secondary dec"
+    >
+      -
+    </button>
+  </div>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Counter 11`] = `
+<div>
+  <div
+    class="btn-group"
+    role="group"
+  >
+    <button
+      class="btn btn-secondary inc"
+    >
+      +
+    </button>
+    <button
+      class="btn btn-secondary dec"
+    >
+      -
+    </button>
+  </div>
+  <ul
+    class="list-group"
+  >
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="list-group-item"
+    >
+      <a
+        href="#"
+      >
+        1
+      </a>
+    </li>
+  </ul>
+</div>
+`;
